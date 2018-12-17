@@ -63,8 +63,8 @@ keepalive   10 120
 persist-key yes
 persist-tun yes
 comp-lzo    yes
-push        "dhcp-option DNS 8.8.8.8"
-push        "dhcp-option DNS 8.8.4.4"
+push        "dhcp-option DNS 1.1.1.1"
+push        "dhcp-option DNS 1.0.0.1"
 # Normally, the following command is sufficient.
 # However, it doesn't assign a gateway when using
 # VMware guest-only networking.
@@ -94,8 +94,8 @@ keepalive   10 120
 persist-key yes
 persist-tun yes
 comp-lzo    yes
-push        "dhcp-option DNS 8.8.8.8"
-push        "dhcp-option DNS 8.8.4.4"
+push        "dhcp-option DNS 1.1.1.1"
+push        "dhcp-option DNS 1.0.0.1"
 
 # Normally, the following command is sufficient.
 # However, it doesn't assign a gateway when using
